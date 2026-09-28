@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/brewhash",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Brew config/hash key checks for twelve-factor services.",
+  "bin": {
+    "brewhash": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/brewhash.git"
+  },
+  "homepage": "https://theworker02.github.io/brewhash/",
+  "keywords": [
+    "brew",
+    "hash",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
